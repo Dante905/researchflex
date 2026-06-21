@@ -59,6 +59,42 @@ footer {
   margin-bottom: 32px;
 }
 
+img{
+    width: 100px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.button-container img{
+    flex-grow: 0;
+}
+
+.button-container p{
+    flex-grow: 1;
+    text-align: center;
+    background-color: #f6ff74;
+}
+
+.button{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2f1b3f;
+    display: flex;
+    align-items: center;
+    outline: 1px solid green;
+    justify-content: flex-start;
+}
+
+
+.button:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
 
 
 .about-left p {
